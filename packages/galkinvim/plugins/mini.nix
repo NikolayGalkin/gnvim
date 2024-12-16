@@ -17,6 +17,7 @@
       bufremove = { };
       animate = { };
       visits = { };
+      extra = { };
       move = {
         mappings = {
           left = "<C-M-h>";
@@ -91,6 +92,13 @@
         mode = "n";
         key = "<leader>v";
         action.__raw = "MiniVisits.select_path";
+      }
+    ]
+    ++ lib.optionals (config.plugins.mini.enable && lib.hasAttr "extra" config.plugins.mini.modules) [
+      {
+        mode = "n";
+        key = "<leader>ms";
+        action.__raw = "MiniExtra.pickers.spellsuggest";
       }
     ];
 
