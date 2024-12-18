@@ -79,6 +79,7 @@ in
           name = "spell";
           priority = 300;
         }
+        { name = "render-markdown"; }
         {
           name = "git";
           priority = 250;
