@@ -51,6 +51,14 @@
         marksman = {
           enable = true;
         };
+        ltex = {
+          enable = true;
+          settings = {
+            loadLangs = [
+              "en-US"
+            ];
+          };
+        };
         nixd = {
           enable = true;
           settings =
