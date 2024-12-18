@@ -2,7 +2,7 @@
 
 {
   plugins.render-markdown = {
-    enable = false;
+    enable = true;
   };
 
   plugins.image = {
