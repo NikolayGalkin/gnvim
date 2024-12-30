@@ -62,6 +62,14 @@
             "Y" = {
               action = "y$";
             };
+
+            "<c-d>" = {
+              action = "<c-d>zz";
+            };
+
+            "<c-u>" = {
+              action = "<c-u>zz";
+            };
           };
 
       insert =
