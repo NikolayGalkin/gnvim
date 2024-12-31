@@ -10,6 +10,7 @@
 
       integrations = {
         cmp = true;
+        blink_cmp = true;
         gitsigns = true;
         lsp_trouble = true;
         markdown = true;
