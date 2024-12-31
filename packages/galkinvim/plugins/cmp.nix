@@ -16,7 +16,7 @@ let
 in
 {
   plugins.cmp = {
-    enable = true;
+    enable = false;
     autoEnableSources = true;
 
     settings = {
